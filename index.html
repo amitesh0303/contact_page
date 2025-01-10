@@ -12,59 +12,31 @@
     />
 
     <title>Contact Page | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <!-- 
-  Interested in our business pricing?
-   
-  Fill out the form to view details and we’ll contact you as soon as possible.
-  
-  Name
-
-  Ethan Johnson
-
-  Company Email
-  
-  ethan@johnson.com
-
-  Company Size
-
-  50-100 employees
-  
-  Subject
-
-  Building Landing pages
-
-  Message
-
-  50-100 employees
-
-  Contact Sales
-  -->
+    <div>
+      <h1>Interested in our business pricing?</h1>
+      <h3>Fill out the form to view details and we’ll contact you as soon as possible.</h3>
+    </div>
+    <form action="">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="Ethan Johnson">
+      <label for="email">Company Email</label>
+      <input type="email" name="email" id="email" placeholder="ethan@johnson.com">
+      <label for="size">Company Size</label>
+      <select name="size" id="size">
+        <option value="0-50">0-50 employees</option>
+        <option value="50-100">50-100 employees</option>
+      </select>
+      <button>Contact Sales</button>
+      <label for="subject">Subject</label>
+      <select name="subject" id="subject">
+        <option value="Building Landing pages">Building Landing pages</option>
+      </select>
+      <label for="message">Message</label>
+      <textarea name="message" id="message">50-100 employees</textarea>
+    </form>
 
     <div class="author-info">
       Coded by <a href="#">Your Name Here</a> | Challenge by
