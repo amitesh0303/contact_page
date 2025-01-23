@@ -1,20 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    height: 100vh;
-  }
+body {
+  height: 100vh;
+  background: url(/resources/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Be Vietnam Pro';
+}
 
-  .author-info {
-    font-size: 14px;
-    text-align: center;
-    margin-top: 16px;
-    color: rgb(55, 65, 81);
-  }
-
-  .author-info a {
-    text-decoration: none;
-  }
+header {
+  padding: 20px 0px 44px 0px;
+}
