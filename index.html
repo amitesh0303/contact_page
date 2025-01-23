@@ -14,6 +14,7 @@
     rel="stylesheet">
 
 </head>
+
 <body>
   <header>
     <img src="/resources/Logo.svg" alt="">
@@ -21,25 +22,41 @@
   <div id="hero">
     <h1>Interested in our <br> business pricing?</h1>
     <h3>Fill out the form to view details and we’ll
-      <br> contact you as soon as possible.</h3>
+      <br> contact you as soon as possible.
+    </h3>
   </div>
   <form action="">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" placeholder="Ethan Johnson">
-    <label for="email">Company Email</label>
-    <input type="email" name="email" id="email" placeholder="ethan@johnson.com">
-    <label for="size">Company Size</label>
-    <select name="size" id="size">
-      <option value="0-50">0-50 employees</option>
-      <option value="50-100">50-100 employees</option>
-    </select>
-    <button>Contact Sales</button>
-    <label for="subject">Subject</label>
-    <select name="subject" id="subject">
-      <option value="Building Landing pages">Building Landing pages</option>
-    </select>
+    <div id="row-1">
+      <div id="row-1-content-1">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Ethan Johnson">
+      </div>
+      <div id="row-1-content-2">
+        <label for="email">Company Email</label>
+        <input type="email" name="email" id="email" placeholder="ethan@johnson.com">
+      </div>
+    </div>
+    <br>
+    <div id="row-2">
+      <div id="row-2-content-1">
+        <label for="size">Company Size</label>
+        <select name="size" id="size">
+          <option value="0-50">0-50 employees</option>
+          <option value="50-100">50-100 employees</option>
+        </select>
+      </div>
+      <div id="row-2-content-2">
+        <label for="subject">Subject</label>
+        <select name="subject" id="subject">
+          <option value="Building Landing pages">Building Landing pages</option>
+        </select>
+      </div>
+    </div>
+    <br>
     <label for="message">Message</label>
     <textarea name="message" id="message">50-100 employees</textarea>
+    <br>
+    <button>Contact Sales</button>
   </form>
 
 
